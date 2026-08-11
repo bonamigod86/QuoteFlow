@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuoteFlow Widget Test Page</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 0; padding: 40px 20px">
+    <div style="max-width: 760px; margin: 0 auto">
+      <h1>Acme Pressure Washing</h1>
+      <p>
+        Request your instant quote below. This widget is embedded from the
+        QuoteFlow API script.
+      </p>
+
+      <hr style="margin: 24px 0" />
+
+      <div id="quoteflow-widget"></div>
+      <script
+        src="http://localhost:3000/api/widget"
+        data-company-id="11111111-1111-1111-1111-111111111111"
+        async
+      ></script>
+
+      <hr style="margin: 24px 0" />
+
+      <p style="color: #666">Footer content after the widget.</p>
+    </div>
+  </body>
+</html>

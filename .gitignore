@@ -1,0 +1,9 @@
+node_modules
+.next
+.env.local
+dev-server.log
+dev-server.err.log
+mock-test.js
+mock-test2.js
+tsconfig.tsbuildinfo
+*.tsbuildinfo
